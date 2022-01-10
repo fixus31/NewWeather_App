@@ -35,7 +35,7 @@ const toProperCase = (text) => {
 
 const updateWeatherLocationHeader = (message) => {
     const h1 = document.getElementById("currentForecastLocation");
-    if(message.indexOf("Lat:") !== -1 && message.indexOf("Long:") !== -1){
+    if(message.indexOf("Latitude:") !== -1 && message.indexOf("Longitude:") !== -1){
         const msgArray = message.split(" ");
         const mapArray = msgArray.map(msg => {
             return msg.replace(":", ": ");
