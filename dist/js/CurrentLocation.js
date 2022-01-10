@@ -14,21 +14,21 @@ export default class CurrentLocation {
         this._name = name;
     }
 
-    getLat() {
-        return this._lat;
+    getLatitude() {
+        return this._latitude;
 
     }
 
-    setLat(lat) {
-        this._lat = lat;
+    setLatitude(latitude) {
+        this._latitude = latitude;
     }
 
-    getLon() {
-        return this._lon;
+    getLongitude() {
+        return this._longitude;
     }
 
-    setLon(lon) {
-        this._lon = lon;
+    setLongitude(longitude) {
+        this._longitude = longitude;
     }
 
     getUnit() {
