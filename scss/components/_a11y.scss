@@ -1,0 +1,14 @@
+.skip-link {
+    position: absolute;
+    top: -999px;
+    background: $text-shadow-color;
+    padding: 12px;
+    z-index: 1;
+    color: $font-color;
+}
+
+.skip-link:focus,
+.skip-link:active {
+    top: auto;
+    left: auto;
+}
